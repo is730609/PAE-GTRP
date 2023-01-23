@@ -11,7 +11,8 @@ body {
 header, footer {
     height: 80px;
     width: 100%;
-    background-color: darkred;
+    background-color: rgb(204, 82, 82);
+    text-align: center;
 }
 
 main {
@@ -28,8 +29,9 @@ main {
     height: 200px;
     width: 25%;
     float: left;
-    border: solid 1px darkgreen;
+    border: solid 1px rgb(57, 184, 57);
     box-sizing: border-box;
+    text-align: center;
 }
 
 .container::after {
