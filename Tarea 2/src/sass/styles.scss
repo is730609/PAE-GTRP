@@ -1,0 +1,8 @@
+// Importaciones
+@use 'base/variables';
+@use 'base/mixins';
+
+// Parciales
+@import 'components/header';
+@import 'components/main';
+@import 'components/footer';
