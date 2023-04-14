@@ -15,7 +15,7 @@ Este proyecto es una aplicación web desarrollada en Node.js para desplegar el c
 El proyecto está organizado en las siguientes carpetas:
 
 - `src/sass`: Contiene los archivos SASS para la organización y el diseño de los estilos.
-- `public`: Contiene los archivos estáticos como CSS e imágenes que se sirven en el proyecto.
+- `public`: Contiene los archivos estáticos como CSS que se usan en el proyecto.
 - `src/views`: Contiene los archivos HTML de las diferentes páginas de la aplicación.
 - `app.js`: Es el archivo principal que inicia el servidor y contiene la configuración de las rutas.
 
