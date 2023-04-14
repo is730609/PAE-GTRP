@@ -1,0 +1,14 @@
+<h1>Buscador de Noticias</h1>
+<form action="/search" method="post">
+  <label for="query">Buscar noticias:</label>
+  <input type="text" id="query" name="query" value="{{query}}" required>
+  <button type="submit">Buscar</button>
+</form>
+
+{{#if query}}
+  <script>
+    window.addEventListener('load', () => {
+      document.querySelector('form').submit();
+    });
+  </script>
+{{/if}}

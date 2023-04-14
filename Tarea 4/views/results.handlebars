@@ -1,0 +1,9 @@
+<h1>Resultados para "{{query}}":</h1>
+<ul>
+  {{#each articles}}
+    <li>
+      <a href="{{this.url}}" target="_blank" rel="noopener noreferrer">{{this.title}}</a>
+      <p>{{this.description}}</p>
+    </li>
+  {{/each}}
+</ul>
