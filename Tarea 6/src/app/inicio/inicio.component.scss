@@ -1,0 +1,18 @@
+@import 'src/styles.scss';
+
+.inicio {
+  text-align: center;
+  padding: 3rem 0;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}
