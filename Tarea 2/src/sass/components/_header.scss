@@ -1,0 +1,34 @@
+@use '../base/variables';
+@use '../base/mixins';
+
+nav {
+  background-color: variables.$bg-color;
+  color: variables.$font-color;
+
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  ul {
+    li {
+      margin-left: 1rem;
+
+      a {
+        @include mixins.link-colors(variables.$font-color, lighten(variables.$font-color, 10%));
+      }
+    }
+  }
+
+  @include mixins.media-query('tablet') {
+    .logo {
+      font-size: 2rem;
+    }
+  }
+
+  @include mixins.media-query('desktop') {
+    .logo {
+      font-size: 2.5rem;
+    }
+  }
+}

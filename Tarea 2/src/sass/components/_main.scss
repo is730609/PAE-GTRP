@@ -1,0 +1,14 @@
+@use '../base/variables';
+@use '../base/mixins';
+
+section {
+  padding: variables.$mobile-padding;
+
+  @include mixins.media-query('tablet') {
+    padding: variables.$tablet-padding;
+  }
+
+  @include mixins.media-query('desktop') {
+    padding: variables.$desktop-padding;
+  }
+}

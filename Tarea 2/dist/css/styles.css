@@ -1,0 +1,60 @@
+nav {
+  background-color: #333;
+  color: #fff;
+}
+nav .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+nav ul li {
+  margin-left: 1rem;
+}
+nav ul li a {
+  color: #fff;
+}
+nav ul li a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  nav .logo {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  nav .logo {
+    font-size: 2.5rem;
+  }
+}
+
+section {
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  section {
+    padding: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  section {
+    padding: 3rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    padding: 3rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
