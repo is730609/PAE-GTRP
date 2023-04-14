@@ -1,0 +1,90 @@
+/* Estilos base (mobile-first) */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Estilos para el menú */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+nav .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 2rem;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Breakpoint para tablet (768px) */
+@media (min-width: 768px) {
+    /* Estilos específicos para tablet */
+    nav ul li {
+        margin-left: 2rem;
+    }
+
+    nav .logo {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 3rem;
+    }
+}
+
+/* Breakpoint para desktop (1024px) */
+@media (min-width: 1024px) {
+    /* Estilos específicos para desktop */
+    nav ul li {
+        margin-left: 3rem;
+    }
+
+    nav .logo {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 4rem;
+    }
+}
