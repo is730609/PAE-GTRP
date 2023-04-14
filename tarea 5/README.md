@@ -18,7 +18,7 @@ API desarrollada con Node.js, Express y MongoDB para administrar tareas. Permite
 ```npm install```
 
 ## Uso
-
+0. Reemplazar "MONGODB" en app.js con su cadena de conexión
 1. Inicie la API ejecutando el siguiente comando:
 ```node app.js```
 2. La API estará disponible en `http://localhost:3000`.
